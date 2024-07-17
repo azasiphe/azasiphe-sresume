@@ -4,6 +4,7 @@
     box-sizing: border-box;
   }
   
+  
   ::-webkit-scrollbar {
     width: 0px;
   }
@@ -56,7 +57,40 @@
     transform: rotate(-75deg);
     background-color: orange;
   }
-  
+  .custom-h1 {
+    font-size:3rem; /* This corresponds to display-5 size */
+    font-weight: bolder; /* This corresponds to fw-bolder */
+    color: orange; /* Replace with your desired color */
+   
+  }
+  @media (min-width: 768px) {
+    .custom-h1 {
+      font-size:1rem;
+    }
+  }
+  @media (min-width: 90px) {
+    .custom-h1 {
+      font-size:2rem;
+    }
+  }
+
+  .custom-h2 {
+    font-size:2rem; /* This corresponds to display-5 size */
+    font-weight: bolder; /* This corresponds to fw-bolder */
+    color: orange; /* Replace with your desired color */
+   
+  }
+  @media (min-width: 768px) {
+    .custom-h2 {
+      font-size:1rem;
+    }
+  }
+  @media (min-width: 90px) {
+    .custom-h2 {
+      font-size:1rem;
+    }
+  }
+
   .pagess {
     height: 100vh;
     width: 100%;
@@ -427,6 +461,26 @@
   .contact-body {
     width: 90%;
   }
+  .classi{
+   
+
+  
+    .contact-icons {
+      height: 10%;
+  
+      a {
+        height: 50px;
+        width: 50px;
+        background-color: orange;
+        color: white;
+      }
+  
+      a:hover {
+        background-color: black;
+        color: white;
+      }
+    }
+  }
   
   .contact-body .row .col-12 {
     height: 75vh;
@@ -448,6 +502,7 @@
         }
       }
     }
+
   
     .contact-icons {
       height: 10%;
@@ -455,16 +510,17 @@
       a {
         height: 50px;
         width: 50px;
-        background-color: #daaf14;
+        background-color: orange;
         color: white;
       }
   
       a:hover {
-        background-color: gray;
+        background-color: black;
         color: white;
       }
     }
   }
+  
   
   .formm {
     input {
