@@ -65,7 +65,7 @@
   }
   @media (min-width: 768px) {
     .custom-h1 {
-      font-size:1rem;
+      font-size:2rem;
     }
   }
   @media (min-width: 90px) {
@@ -75,9 +75,9 @@
   }
 
   .custom-h2 {
-    font-size:2rem; /* This corresponds to display-5 size */
-    font-weight: bolder; /* This corresponds to fw-bolder */
-    color: orange; /* Replace with your desired color */
+    font-size:2rem; 
+    font-weight: bolder; 
+    color: orange; 
    
   }
   @media (min-width: 768px) {
@@ -90,6 +90,13 @@
     .custom-h2 {
       font-size:1rem;
     }
+   
+  }
+  @media (min-width: 450px) {
+    .custom-h2 {
+      font-size:1rem;
+    }
+   
   }
 
   .pagess {
@@ -236,7 +243,7 @@
     border-radius: 10px;
     box-shadow: .5rem .5rem 1rem rgba(0, 0, 0, 0.6);
     overflow: hidden;
-    margin: auto;
+    margin: 3px;
     color: #fff;
     font-family: 'montserrat', Helvetica, sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -410,11 +417,45 @@
   .res-ol {
     width: 50%;
   
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
       width: 100%;
     }
+ 
   }
   
+  @media (max-width: 480px) {
+    .frame {
+      width: 115%;
+      height: 100%;
+      border-radius: 8px;
+      box-shadow: .4rem .4rem .8rem rgba(0, 0, 0, 0.6);
+      margin: 3px;
+    }
+    @media (max-width: 480px) {
+      .list-group-item .ms-2 span {
+        font-size: 1.5rem;
+      }
+    }
+  }
+  @media (max-width: 390px) {
+    .frame {
+      margin-left: -10px;
+      width: 80%;
+      height: 100%;
+      border-radius: 8px;
+      box-shadow: .4rem .4rem .8rem rgba(0, 0, 0, 0.6);
+      margin: 3px;
+    }
+    .p-table{
+      margin-right:-20px;
+    }
+    table tr td {
+      padding: 15px;
+      border: none;
+      background: transparent;
+      margin-left:-30px;
+    }
+  }
   /* portfolio-section */
   .my-port {
     width: 100%;
