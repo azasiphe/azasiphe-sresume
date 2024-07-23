@@ -20,6 +20,9 @@
   .bcg {
     background-color: darkgray;
   }
+  .wht-y {
+    color: white;
+  }
   
   .back {
     background-color: orange;
@@ -58,7 +61,7 @@
     background-color: orange;
   }
   .custom-h1 {
-    font-size:3rem; /* This corresponds to display-5 size */
+    font-size:3rem; 
     font-weight: bolder; /* This corresponds to fw-bolder */
     color: orange; /* Replace with your desired color */
    
@@ -98,7 +101,7 @@
     }
    
   }
-
+ 
   .pagess {
     height: 100vh;
     width: 100%;
@@ -439,12 +442,14 @@
   }
   @media (max-width: 390px) {
     .frame {
-      margin-left: -10px;
-      width: 80%;
-      height: 100%;
+      margin-left: -10%;
+      width: 125%;
+      height: 110%;
       border-radius: 8px;
       box-shadow: .4rem .4rem .8rem rgba(0, 0, 0, 0.6);
-      margin: 3px;
+    }
+    .wht-y {
+      display: none;
     }
     .p-table{
       margin-right:-20px;
